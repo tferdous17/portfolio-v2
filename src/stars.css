@@ -3,7 +3,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   pointer-events: none; /* Prevents stars from interfering with clicks */
 }
 
@@ -53,6 +53,24 @@
   top: 70%;
   left: 90%;
   animation-delay: 1s;
+}
+
+.star7 {
+  top: 1330px;
+  left: 93%;
+  animation-delay: 2s;
+}
+
+.star8 {
+  top: 1120px;
+  left: 12%;
+  animation-delay: 1s;
+}
+
+.star9 {
+  top: 1830px;
+  left: 84%;
+  animation-delay: 0.5s;
 }
 
 /* Twinkling animation */
