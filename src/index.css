@@ -1,9 +1,28 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 :root {
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #020617;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+*::selection {
+  background: rgba(51, 51, 51, 0.439);
+}
+
+h1::selection {
+  background: rgba(51, 51, 51, 0.195);
+}
+
+span::selection {
+  background: rgba(51, 51, 51, 0.195);
+}
+
+.name-header {
+  font-family: "Permanent Marker", system-ui;
 }

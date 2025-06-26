@@ -1,9 +1,10 @@
 import { useState } from 'react'
+import LandingPage from './components/page-ui/LandingPage'
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <LandingPage />
     </>
   )
 }
