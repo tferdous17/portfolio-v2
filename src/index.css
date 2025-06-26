@@ -26,3 +26,28 @@ span::selection {
 .name-header {
   font-family: "Permanent Marker", system-ui;
 }
+
+/* GlowingText.css */
+.glow {
+  text-shadow: -3px 0px 4px rgba(255, 255, 255, 0.5); /* Top-left glow */
+}
+
+.glow-hover:hover {
+  text-shadow: 3px -3px 6px rgba(255, 255, 255, 0.7); /* Stronger glow on hover */
+}
+.fancy-paragraph {
+  position: relative;
+  padding-left: 30px;
+}
+
+.fancy-paragraph p::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: linear-gradient(to bottom, #1c1c1c16, #39263f); /* Gradient line */
+  border-radius: 4px;
+}
+
