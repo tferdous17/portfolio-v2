@@ -11,11 +11,12 @@ export default function About() {
           </h1>
           <div className="h-0.5 w-81 bg-gradient-to-r from-[#4e3e3e] to-slate-950 rounded-md"></div>
         </div>
+
         <div className="">
           <p className="text-gray-400 text-xl leading-relaxed mb-4">
             Hello! My name is Tasnim and I enjoy building complex systems and
             engaging digital experiences. My interest in software development
-            started roughly 3 years ago and since then, I've been constantly
+            started close to 3 years ago and since then, I've been constantly
             learning, experimenting, and rebuilding software across various
             domains—from distributed systems to fullstack applications. My primary
             focus is distributed systems and backend development,
@@ -37,7 +38,7 @@ export default function About() {
                 <li className="relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">Java</li>
                 <li className="-mx-35 relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">Golang</li>
                 <li className="relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">Python</li>
-                <li className="-mx-35 relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]00">JavaScript/TypeScript</li>
+                <li className="-mx-35 relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">JavaScript/TypeScript</li>
                 <li className="relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">React</li>
                 <li className="-mx-35 relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">Vue</li>
                 <li className="relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">Node.js</li>
