@@ -10,16 +10,16 @@ export default function Experience() {
     <div className="">
       <div
         id="experience"
-        className="ml-[21rem] rounded-lg p-6 md:p-8 max-w-6xl mx-auto my-10 sticky top-0 h-screen flex flex-col justify-center "
+        className="ml-[22rem] rounded-lg p-6 md:p-8 max-w-6xl mx-auto my-10 sticky top-0 h-screen flex flex-col justify-center "
       >
         <div className="relative flex items-center md:justify-start mb-12 gap-6 ">
           <h1 className="text-4xl font-inter font-bold text-gray-300 ">
-            <span className="text-[#A29BFE] font-mono">02.</span> Work +
+            <span className="text-[#A29BFE] font-mono">02.</span> Work &
             Leadership Experience
           </h1>
-          <div className="h-0.5 w-81 bg-gradient-to-r from-[#4e3e3e] to-slate-950 rounded-md"></div>
+          <div className="h-0.5 w-81 bg-gradient-to-r from-[#2e3e4e] to-slate-950 rounded-md"></div>
         </div>
-        
+
         <div className="flex ">
           <div role="tablist" className="flex flex-col ml-0 mr-5">
             {experience.map((exp, i) => {
@@ -38,13 +38,15 @@ export default function Experience() {
                     activeTabId === i ? "text-gray-100" : "text-gray-500"
                   )}
                 >
-                    <div className="relative">
-                        <span className={clsx(
-                            "absolute h-full rounded-md w-0.5",
-                            activeTabId === i ? "bg-blue-300" : "bg-gray-700"
-                        )}></span>
-                        <span className="block pl-4">{exp.organization}</span>
-                    </div>
+                  <div className="relative">
+                    <span
+                      className={clsx(
+                        "absolute h-full rounded-md w-0.5",
+                        activeTabId === i ? "bg-blue-300" : "bg-gray-700"
+                      )}
+                    ></span>
+                    <span className="block pl-4">{exp.organization}</span>
+                  </div>
                 </button>
               );
             })}
@@ -61,13 +63,17 @@ export default function Experience() {
                     {exp.title}{" "}
                     <span className="text-[#A29BFE]">
                       @{" "}
-                      <a
-                        href={exp.url}
-                        target="_blank"
-                        className="hover:underline"
-                      >
-                        {exp.organization}
-                      </a>
+                      {exp.url != "" ? (
+                        <a
+                          href={exp.url}
+                          target={"_blank"}
+                          className={"hover:underline"}
+                        >
+                          {exp.organization}
+                        </a>
+                      ) : (
+                        <span>{exp.organization}</span>
+                      )}
                     </span>
                   </h2>
                   <h3 className="mb-4 text-gray-300">{exp.dateRange}</h3>
@@ -91,7 +97,7 @@ export default function Experience() {
 const experience = [
   {
     organization: "Arthrex",
-    title: "Software Engineer Intern",
+    title: "Software Engineer Intern, ML Team",
     dateRange: "May 2024 - November 2024",
     bulletpoints: [
       "Developed a full stack analytics dashboard with Vue and TypeScript to visualize high-risk medical device usage patterns and log critical surgical events in near real-time, used during real orthopedic surgeries.",
