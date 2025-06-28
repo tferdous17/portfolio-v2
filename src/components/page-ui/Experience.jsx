@@ -55,7 +55,7 @@ export default function Experience() {
                 <div
                   role="tabpanel"
                   hidden={activeTabId !== i}
-                  className="flex flex-col gap-3 w-200 "
+                  className="flex flex-col gap-3 w-200 min-h-[500px]"
                 >
                   <h2 className="text-2xl text-gray-200">
                     {exp.title}{" "}
@@ -73,7 +73,7 @@ export default function Experience() {
                   <h3 className="mb-4 text-gray-300">{exp.dateRange}</h3>
                   {exp.bulletpoints.map((bp) => {
                     return (
-                      <ul className="text-gray-400 text-xl font-inter relative pl-10 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">
+                      <ul className="text-gray-400 text-xl font-inter mb-2 relative pl-10 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">
                         {bp}
                       </ul>
                     );
