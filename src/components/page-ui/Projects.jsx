@@ -7,7 +7,7 @@ export default function Projects() {
         id="about"
         className="ml-[22rem] rounded-lg p-6 md:p-8 max-w-7xl mx-auto my-10 sticky top-0 h-screen flex flex-col justify-center"
       >
-        <div className="relative flex items-center md:justify-start mb-12 gap-6">
+        <div className="relative flex items-center md:justify-start mb-14 gap-6">
           <h1 className="text-4xl font-inter font-bold text-gray-300 text-center md:text-left">
             <span className="text-[#A29BFE] font-mono">03.</span> Personal
             Projects
@@ -74,7 +74,7 @@ const projects = [
   {
     title: "Bounty Streak",
     description:
-      "[Best Sustainability Hack Runner Up] An app that makes recycling way more fun by letting you scan every disposable you recycle via phone camera and and automatically granting you progress towards growing your very own digital pirate pet! We incentivized recycling by gamifying the process.",
+      "[Best Sustainability Hack Runner Up @ HopperHacks 2025] An app that makes recycling way more fun by letting you scan every disposable you recycle via phone camera and and automatically granting you progress towards growing your very own digital pirate pet! We incentivized recycling by gamifying the process.",
     technologies: [
       "React Native",
       "Expo",

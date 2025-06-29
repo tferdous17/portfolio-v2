@@ -1,7 +1,7 @@
 export default function LandingPage() {
     return (
         <div className="relative absolute inset-0 bg-[radial-gradient(circle_550px_at_19%_200px,#4e3e4e,transparent)]">
-            <div className="h-screen flex flex-col justify-center ml-[20rem] gap-5">
+            <div className="h-screen flex flex-col justify-center ml-[20rem] gap-5 mb-90">
                 <span className="text-xl text-[#A29BFE] font-mono">Hi, my name is</span>
                 <h1 className="name-header text-8xl text-gray-300 font-bold"><span className="drop-shadow-[0px_0px_28px_rgba(235,235,235,0.4)]">Tasnim F</span>erdous.</h1>
                 <h1 className="text-5xl text-gray-400">Developer, enthusiast, and lifelong learner.</h1>
