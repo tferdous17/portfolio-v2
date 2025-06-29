@@ -13,7 +13,7 @@ export default function ProjectCard({
       <div className="flex flex-wrap gap-2 mb-2">
         {technologies.map((tech) => {
           return (
-            <span className="bg-blue-300/30 text-white font-mono text-sm pl-2 pr-2 rounded-md">
+            <span className="inline-flex items-center bg-blue-300/10 text-blue-200 font-mono text-xs sm:text-sm px-3 py-1 rounded-full border border-blue-500/20 shadow-sm hover:bg-blue-500/20 transition-colors duration-200">
               {tech}
             </span>
           );
