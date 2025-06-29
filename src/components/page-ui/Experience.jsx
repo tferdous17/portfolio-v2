@@ -10,7 +10,7 @@ export default function Experience() {
     <div className="">
       <div
         id="experience"
-        className="ml-[22rem] rounded-lg p-6 md:p-8 max-w-6xl mx-auto my-10 sticky top-0 h-screen flex flex-col justify-center"
+        className="ml-[22rem] rounded-lg p-6 md:p-8 max-w-6xl mx-auto my-10 sticky top-0 h-screen flex flex-col justify-center mt-20"
       >
         <div className="relative flex items-center md:justify-start mb-12 gap-6 ">
           <h1 className="text-4xl font-inter font-bold text-gray-300 ">
@@ -51,42 +51,47 @@ export default function Experience() {
               );
             })}
           </div>
-          <div>
-            {experience.map((exp, i) => {
-              return (
-                <div
-                  role="tabpanel"
-                  hidden={activeTabId !== i}
-                  className="flex flex-col gap-3 w-200 min-h-[700px]"
-                >
-                  <h2 className="text-2xl text-gray-200">
-                    {exp.title}{" "}
-                    <span className="text-[#A29BFE]">
-                      @{" "}
-                      {exp.url != "" ? (
-                        <a
-                          href={exp.url}
-                          target={"_blank"}
-                          className={"hover:underline"}
-                        >
-                          {exp.organization}
-                        </a>
-                      ) : (
-                        <span>{exp.organization}</span>
-                      )}
-                    </span>
-                  </h2>
-                  <h3 className="mb-4 text-gray-300">{exp.dateRange}</h3>
-                  {exp.bulletpoints.map((bp) => {
-                    return (
-                      <ul className="text-gray-400 text-xl font-inter mb-2 relative pl-10 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">
-                        {bp}
-                      </ul>
-                    );
-                  })}
-                </div>
-              );
-            })}
+          <div className="">
+            {experience.map((exp, i) => (
+              <div
+                key={i}
+                role="tabpanel"
+                hidden={activeTabId !== i}
+                className="flex flex-col gap-4 p-6 mb-100 sm:p-8 bg-gradient-to-br from-slate-800/20 to-slate-900/20 rounded-2xl shadow-lg border border-slate-500/20 transition-opacity duration-300 ease-in-out min-h-[450px]"
+              >
+                <h2 className="text-xl sm:text-2xl font-bold font-inter tracking-tight">
+                  {exp.title}{" "}
+                  <span className="text-[#A29BFE]">
+                    @{" "}
+                    {exp.url ? (
+                      <a
+                        href={exp.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                      >
+                        {exp.organization}
+                      </a>
+                    ) : (
+                      <span>{exp.organization}</span>
+                    )}
+                  </span>
+                </h2>
+                <h3 className="text-base sm:text-lg text-slate-300 mb-4">
+                  {exp.dateRange}
+                </h3>
+                <ul className="flex flex-col gap-3">
+                  {exp.bulletpoints.map((bp, index) => (
+                    <li
+                      key={index}
+                      className="text-base sm:text-lg text-gray-400 font-inter relative pl-8 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE] before:text-lg"
+                    >
+                      {bp}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
       </div>
