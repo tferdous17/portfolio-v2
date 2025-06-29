@@ -5,10 +5,12 @@ import Stars from './components/Stars'
 import About from './components/page-ui/About'
 import Experience from './components/page-ui/Experience'
 import Projects from './components/page-ui/Projects'
+import Footer from './components/page-ui/Footer'
+import Contact from './components/page-ui/Contact'
 
 function App() {
   return (
-    <>
+    <div className=''>
       <Stars />
       <Navbar />
       <LandingPage />
@@ -17,7 +19,9 @@ function App() {
         <Experience />
         <Projects />
       </div>
-    </>
+      <Contact />
+      <Footer />
+    </div>
   )
 }
 

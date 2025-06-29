@@ -122,7 +122,7 @@ const experience = [
     url: "https://www.farmingdale.edu/tutoring/",
   },
   {
-    organization: "Artificial Intelligence Club",
+    organization: "Artificial Intelligence Club (FSC)",
     title: "Founder/President",
     dateRange: "December 2023 - Present",
     bulletpoints: [

@@ -2,14 +2,13 @@ import ProjectCard from "../ProjectCard";
 
 export default function Projects() {
   return (
-    <div className="">
+    <div className="my-10 ">
       <div
-        id="about"
-        className="ml-[22rem] rounded-lg p-6 md:p-8 max-w-7xl mx-auto my-10 sticky top-0 h-screen flex flex-col justify-center"
+        className="ml-[22rem] rounded-lg p-6 md:p-8 max-w-7xl mx-auto  sticky top-0 h-screen flex flex-col justify-center"
       >
         <div className="relative flex items-center md:justify-start mb-14 gap-6">
           <h1 className="text-4xl font-inter font-bold text-gray-300 text-center md:text-left">
-            <span className="text-[#A29BFE] font-mono">03.</span> Personal
+            <span id="projects" className="text-[#A29BFE] font-mono">03.</span> Personal
             Projects
           </h1>
           <div className="h-0.5 w-81 bg-gradient-to-r from-[#3e1e5e] to-slate-950 rounded-md"></div>
