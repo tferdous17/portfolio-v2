@@ -10,7 +10,7 @@ export default function Experience() {
     <div className="">
       <div
         id="experience"
-        className="ml-[22rem] rounded-lg p-6 md:p-8 max-w-6xl mx-auto my-10 sticky top-0 h-screen flex flex-col justify-center "
+        className="ml-[22rem] rounded-lg p-6 md:p-8 max-w-6xl mx-auto my-10 sticky top-0 h-screen flex flex-col justify-center"
       >
         <div className="relative flex items-center md:justify-start mb-12 gap-6 ">
           <h1 className="text-4xl font-inter font-bold text-gray-300 ">
@@ -57,7 +57,7 @@ export default function Experience() {
                 <div
                   role="tabpanel"
                   hidden={activeTabId !== i}
-                  className="flex flex-col gap-3 w-200 min-h-[500px]"
+                  className="flex flex-col gap-3 w-200 min-h-[700px]"
                 >
                   <h2 className="text-2xl text-gray-200">
                     {exp.title}{" "}

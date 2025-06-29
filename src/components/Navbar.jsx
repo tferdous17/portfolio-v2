@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="bg-transparent fixed w-full z-20 top-1 start-0 border-none">
+    <nav className="bg-transparent fixed w-full z-20 top-0 start-0 border-none backdrop-blur-xl">
       <div className="flex flex-wrap justify-end mx-auto p-4 gap-10">
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse mr-8">
           <a
