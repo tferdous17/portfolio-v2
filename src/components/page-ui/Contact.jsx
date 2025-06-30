@@ -1,9 +1,9 @@
 export default function Contact() {
   return (
-    <div className="my-85 ">
+    <div className="pb-30">
       <div
         id="about"
-        className="ml-[22rem] rounded-lg p-6 md:p-8 max-w-6xl mx-auto flex flex-col justify-center"
+        className="2xl:ml-[20%] sm:justify-center rounded-lg p-6 md:p-8 max-w-6xl mx-auto flex flex-col justify-center"
       >
         <div className="relative flex items-center md:justify-start mb-12 gap-6">
           <h1 className="text-4xl font-inter font-bold text-gray-300 text-center md:text-left">

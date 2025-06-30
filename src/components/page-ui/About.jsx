@@ -1,9 +1,9 @@
 export default function About() {
   return (
-    <div className="">
+    <div className="pb-30">
       <div
         id="about"
-        className="ml-[22rem] rounded-lg p-6 md:p-8 max-w-4xl mx-auto my-10 sticky top-0 h-screen flex flex-col justify-center"
+        className="2xl:ml-[20%] sm:justify-center rounded-lg p-6 max-w-4xl mx-auto flex flex-col justify-center"
       >
         <div className="relative flex items-center md:justify-start mb-12 gap-6">
           <h1 className="text-4xl font-inter font-bold text-gray-300 text-center md:text-left">
@@ -44,7 +44,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="mb-30 max-w-3xl">
+          <div className="max-w-3xl">
             <h2 className="font-inter font-bold text-3xl text-gray-300">
               Skills
             </h2>
@@ -81,7 +81,7 @@ export default function About() {
               <h3 className="text-lg font-bold font-inter text-gray-300 mb-1">
                 Tools/Other
               </h3>
-              <div className="flex flex-wrap gap-2 mb-110">
+              <div className="flex flex-wrap gap-2">
                 {tools.map((tool) => (
                   <span
                     key={tool}
@@ -92,18 +92,8 @@ export default function About() {
                 ))}
               </div>
             </div>
-
-            {/* <ul className="grid grid-cols-2 gap-x-2 gap-y-1 pl-6 text-gray-400 font-mono">
-                <li className="relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">Java</li>
-                <li className="-mx-35 relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">Golang</li>
-                <li className="relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">Python</li>
-                <li className="-mx-35 relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">JavaScript/TypeScript</li>
-                <li className="relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">React</li>
-                <li className="-mx-35 relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">Vue</li>
-                <li className="relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">Node.js</li>
-                <li className="-mx-35 relative pl-5 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE]">Express</li>
-            </ul> */}
           </div>
+          
         </div>
       </div>
     </div>

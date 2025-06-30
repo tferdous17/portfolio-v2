@@ -7,10 +7,10 @@ export default function Experience() {
   const tabs = useRef([]);
 
   return (
-    <div className="">
+    <div className="pb-30">
       <div
         id="experience"
-        className="ml-[22rem] rounded-lg p-6 md:p-8 max-w-6xl mx-auto my-10 sticky top-0 h-screen flex flex-col justify-center mt-20"
+        className="2xl:ml-[20%] sm:justify-center rounded-lg p-6 md:p-8 2xl:max-w-6xl sm:max-w-5xl mx-auto flex flex-col justify-center"
       >
         <div className="relative flex items-center md:justify-start mb-12 gap-6 ">
           <h1 className="text-4xl font-inter font-bold text-gray-300 ">
@@ -57,7 +57,7 @@ export default function Experience() {
                 key={i}
                 role="tabpanel"
                 hidden={activeTabId !== i}
-                className="flex flex-col gap-4 p-6 mb-100 sm:p-8 bg-gradient-to-br from-slate-800/20 to-slate-900/20 rounded-2xl shadow-lg border border-slate-500/20 transition-opacity duration-300 ease-in-out min-h-[450px]"
+                className="flex flex-col gap-4 p-6 sm:p-8 bg-gradient-to-br from-slate-800/20 to-slate-900/20 rounded-2xl shadow-lg border border-slate-500/20 transition-opacity duration-300 ease-in-out min-h-[450px]"
               >
                 <h2 className="text-xl sm:text-2xl font-bold font-inter tracking-tight">
                   {exp.title}{" "}
