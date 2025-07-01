@@ -12,6 +12,9 @@ export default function Stars() {
       <div className="star star7"></div>
       <div className="star star8"></div>
       <div className="star star9"></div>
+      <div className="star star10"></div>
+      <div className="star star11"></div>
+      <div className="star star12"></div>
     </div>
   )
 }

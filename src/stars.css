@@ -57,22 +57,42 @@
 }
 
 .star7 {
-  top: 1330px;
+  top: 134%;
   left: 93%;
   animation-delay: 2s;
 }
 
 .star8 {
-  top: 1120px;
+  top: 112%;
   left: 12%;
   animation-delay: 1s;
 }
 
 .star9 {
-  top: 1830px;
+  top: 185%;
   left: 84%;
   animation-delay: 0.5s;
 }
+
+.star12 {
+  top: 219%;
+  left: 96%;
+  animation-delay: 1.5s;
+}
+
+.star10 {
+  top: 295%;
+  left: 26%;
+  animation-delay: 2s;
+}
+
+.star11 {
+  top: 320%;
+  left: 12%;
+  animation-delay: 1s;
+}
+
+
 
 /* Twinkling animation */
 @keyframes twinkle {
