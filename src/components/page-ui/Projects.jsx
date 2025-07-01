@@ -4,9 +4,9 @@ export default function Projects() {
   return (
     <div className="pb-30">
       <div
-        className="2xl:ml-[20%] sm:justify-center rounded-lg p-6 md:p-8 max-w-7xl mx-auto flex flex-col justify-center"
+        className=" sm:justify-center rounded-lg p-6 md:p-8 max-w-7xl mx-auto flex flex-col justify-center"
       >
-        <div className="relative flex items-center md:justify-start mb-14 gap-6">
+        <div className="relative flex-col md:flex-row flex items-center md:justify-start mb-14 gap-6">
           <h1 className="text-4xl font-inter font-bold text-gray-300 text-center md:text-left">
             <span id="projects" className="text-[#A29BFE] font-mono">03.</span> Personal
             Projects

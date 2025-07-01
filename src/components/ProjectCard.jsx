@@ -7,11 +7,11 @@ export default function ProjectCard({
   stars,
 }) {
   return (
-    <div className="flex flex-col bg-gradient-to-br from-slate-800/30 to-slate-900/30 border border-slate-500/20 rounded-2xl p-6 sm:p-8 gap-4 shadow-lg hover:shadow-xl hover:scale-105 hover:bg-slate-800/40 transition-all duration-300 ease-in-out cursor-pointer">
+    <div className="flex flex-col bg-gradient-to-br from-slate-800/30 to-slate-900/30 border border-slate-500/20 rounded-2xl p-6 lg:p-8 gap-4 shadow-lg hover:shadow-xl hover:scale-105 hover:bg-slate-800/40 transition-all duration-300 ease-in-out cursor-pointer">
       <h1 className="text-2xl sm:text-3xl font-bold font-inter tracking-tight">
         {title}
       </h1>
-      <p className="text-base sm:text-lg text-gray-400 leading-relaxed">
+      <p className="text-base text-lg text-gray-400 leading-relaxed">
         {description}
       </p>
       <div className="flex flex-wrap gap-2">

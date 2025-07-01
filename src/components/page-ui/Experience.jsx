@@ -10,9 +10,9 @@ export default function Experience() {
     <div className="pb-30">
       <div
         id="experience"
-        className="2xl:ml-[20%] sm:justify-center rounded-lg p-6 md:p-8 2xl:max-w-6xl sm:max-w-5xl mx-auto flex flex-col justify-center"
+        className="sm:justify-center rounded-lg p-6 md:p-8 sm:max-w-7xl mx-auto flex flex-col justify-center"
       >
-        <div className="relative flex items-center md:justify-start mb-12 gap-6 ">
+        <div className="relative flex flex-col text-center md:flex-row sm:justify-start items-center mb-10 sm:mb-12 gap-6">
           <h1 className="text-4xl font-inter font-bold text-gray-300 ">
             <span className="text-[#A29BFE] font-mono">02.</span> Work &
             Leadership Experience
@@ -20,8 +20,8 @@ export default function Experience() {
           <div className="h-0.5 w-81 bg-gradient-to-r from-[#2e3e4e] to-slate-950 rounded-md"></div>
         </div>
 
-        <div className="flex ">
-          <div role="tablist" className="flex flex-col ml-0 mr-5">
+        <div className="flex flex-col sm:flex-row">
+          <div role="tablist" className="flex flex overflow-scroll sm:overflow-auto sm:flex-col ml-0 mr-5 pb-4">
             {experience.map((exp, i) => {
               return (
                 <button
@@ -45,7 +45,7 @@ export default function Experience() {
                         activeTabId === i ? "bg-blue-300" : "bg-gray-700"
                       )}
                     ></span>
-                    <span className="block pl-4">{exp.organization}</span>
+                    <span className="block pl-3 sm:pl-4">{exp.organization}</span>
                   </div>
                 </button>
               );
@@ -84,7 +84,7 @@ export default function Experience() {
                   {exp.bulletpoints.map((bp, index) => (
                     <li
                       key={index}
-                      className="text-base sm:text-lg text-gray-400 font-inter relative pl-8 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE] before:text-lg"
+                      className="text-base text-lg sm:text-lg text-gray-400 font-inter relative pl-8 before:content-['➤'] before:absolute before:left-0 before:text-[#A29BFE] before:text-lg"
                     >
                       {bp}
                     </li>

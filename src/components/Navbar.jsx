@@ -2,12 +2,12 @@ export default function Navbar() {
   return (
     <nav className="bg-transparent fixed w-full z-20 top-0 start-0 border-none backdrop-blur-xl">
       <div className="flex flex-wrap justify-end mx-auto p-4 gap-10">
-        <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse mr-8">
+        <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse sm:mr-8">
           <a
             href="https://drive.google.com/file/d/1CWfZ6hHoaVR9qmPgJlN4L96-GknWbZTS/view?usp=sharing"
             target="_blank"
           >
-            <button className="cursor-pointer group relative inline-flex h-10 items-center justify-center overflow-hidden rounded-md bg-[#A29BFE] px-5 font-medium font-mono text-black">
+            <button className="cursor-pointer group relative inline-flex h-9 sm:h-10 items-center justify-center overflow-hidden rounded-md bg-[#A29BFE] px-4 sm:px-5 font-medium font-mono text-black">
               <span>Resume</span>
               <div className="absolute inset-0 flex h-full w-full justify-center [transform:skew(-12deg)_translateX(-100%)] group-hover:duration-1000 group-hover:[transform:skew(-12deg)_translateX(100%)]">
                 <div className="relative h-full w-8 bg-white/20"></div>

@@ -16,6 +16,7 @@
   opacity: 0.7;
   animation: twinkle 3s infinite ease-in-out;
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+  z-index: 20;
 }
 
 /* Random positions for each star */

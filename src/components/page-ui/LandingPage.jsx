@@ -1,11 +1,11 @@
 export default function LandingPage() {
     return (
         <div className="relative absolute inset-0 bg-[radial-gradient(circle_550px_at_19%_200px,#4e3e4e,transparent)]">
-            <div className="h-screen flex flex-col justify-center sm:ml-[6%] 2xl:ml-[20%] gap-5">
+            <div className="w-full text-center items-center justify-center sm:text-left sm:items-start md:w-[50%] h-screen flex flex-col  sm:ml-[6%] md:ml-[20%] gap-5">
                 <span className="text-xl text-[#A29BFE] font-mono">Hi, my name is</span>
-                <h1 className="name-header text-8xl text-gray-300 font-bold"><span className="drop-shadow-[0px_0px_28px_rgba(235,235,235,0.4)]">Tasnim F</span>erdous.</h1>
+                <h1 className="name-header text-7xl md:text-8xl text-gray-300 font-bold"><span className="drop-shadow-[0px_0px_28px_rgba(235,235,235,0.4)]">Tasnim F</span>erdous.</h1>
                 <h1 className="text-5xl text-gray-400">Developer, enthusiast, and lifelong learner.</h1>
-                <p className="w-[50%] text-gray-500 text-[19px] mt-3">
+                <p className="sm:w-[80%] text-gray-500 p-3 sm:p-0 text-[19px] mt-3">
                     I'm a software developer and final-year computer science student at Farmingdale State College, NY, 
                     with a special passion for building scalable and highly performant distributed systems. Additionally, I enjoy
                     creating full-stack applications that make peoples' daily lives just a little easier.
@@ -29,3 +29,6 @@ export default function LandingPage() {
         
     )
 }
+
+
+// <div className="h-screen flex flex-col justify-center sm:ml-[6%] 2xl:ml-[20%] gap-5">

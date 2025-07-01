@@ -14,13 +14,15 @@ function App() {
       <Stars />
       <Navbar />
       <LandingPage />
-      <div className='relative absolute inset-0 bg-[radial-gradient(circle_650px_at_99%_800px,#4e3e3e,transparent),radial-gradient(circle_560px_at_29%_2160px,#2e3e4e,transparent)]'>
+      <div className='relative absolute inset-0 bg-[radial-gradient(circle_650px_at_99%_800px,#4e3e3e,transparent),radial-gradient(circle_560px_at_29%_62%,#2e3e4e,transparent)]'>
         <About />
         <Experience />
         <Projects />
       </div>
-      <Contact />
-      <Footer />
+      <div className='relative absolute inset-0 bg-[radial-gradient(circle_215px_at_50%_119%,#7e4e8e,transparent)]'>
+        <Contact />
+        <Footer />
+      </div>
     </div>
   )
 }
