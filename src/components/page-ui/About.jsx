@@ -3,17 +3,17 @@ export default function About() {
     <div className="pb-30">
       <div
         id="about"
-        className="2xl:ml-[20%] sm:justify-center rounded-lg p-6 max-w-4xl mx-auto flex flex-col justify-center"
+        className="rounded-lg p-6 sm:max-w-7xl mx-auto flex flex-col justify-center"
       >
-        <div className="relative flex items-center md:justify-start mb-12 gap-6">
-          <h1 className="text-4xl font-inter font-bold text-gray-300 text-center md:text-left">
+        <div className="relative flex flex-col text-center md:flex-row sm:justify-start items-center mb-10 sm:mb-12 gap-6">
+          <h1 className="text-4xl font-inter font-bold text-gray-300">
             <span className="text-[#A29BFE] font-mono">01.</span> Get To Know Me
           </h1>
           <div className="h-0.5 w-81 bg-gradient-to-r from-[#4e3e4e] to-slate-950 rounded-md"></div>
         </div>
 
-        <div className="">
-          <div className="flex flex-col mb-15 sm:p-8 bg-gradient-to-br from-slate-950/20 to-slate-800/20 rounded-2xl shadow-lg border border-slate-500/20 transition-opacity duration-300 ease-in-out">
+        <div className="max-w-5xl">
+          <div className="flex flex-col mb-15 p-6 sm:p-8 bg-gradient-to-br from-slate-950/20 to-slate-800/20 rounded-2xl shadow-lg border border-slate-500/20 transition-opacity duration-300 ease-in-out">
             <p className="text-gray-400 text-xl leading-relaxed mb-4">
               Hello! My name is Tasnim and I enjoy building complex systems and
               engaging digital experiences. My interest in software development
@@ -44,7 +44,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="max-w-3xl">
+          <div className="max-w-4xl text-center sm:text-left">
             <h2 className="font-inter font-bold text-3xl text-gray-300">
               Skills
             </h2>
@@ -55,7 +55,7 @@ export default function About() {
               <h3 className="text-lg font-bold font-inter text-gray-300 mb-1">
                 Languages
               </h3>
-              <div className="flex flex-wrap gap-2 mb-2">
+              <div className="flex flex-wrap gap-2 mb-2 justify-center sm:justify-start">
                 {languages.map((lang) => (
                   <span
                     key={lang}
@@ -68,7 +68,7 @@ export default function About() {
               <h3 className="text-lg font-bold font-inter text-gray-300 mb-1">
                 Frameworks
               </h3>
-              <div className="flex flex-wrap gap-2 mb-2">
+              <div className="flex flex-wrap gap-2 mb-2 justify-center sm:justify-start">
                 {frameworks.map((fr) => (
                   <span
                     key={fr}
@@ -81,7 +81,7 @@ export default function About() {
               <h3 className="text-lg font-bold font-inter text-gray-300 mb-1">
                 Tools/Other
               </h3>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 justify-center sm:justify-start">
                 {tools.map((tool) => (
                   <span
                     key={tool}
