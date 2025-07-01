@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div className="pb-30">
       <div
-        id="about"
+        id="contact"
         className="sm:justify-center rounded-lg p-6 md:p-8 max-w-7xl mx-auto flex flex-col"
       >
         <div className="relative flex flex-col md:flex-row items-center md:justify-start mb-12 gap-6">

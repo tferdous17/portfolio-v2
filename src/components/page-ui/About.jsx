@@ -31,7 +31,7 @@ export default function About() {
               <a
                 href="https://www.ramhacks.com/"
                 target="_blank"
-                className="text-blue-400"
+                className="text-blue-400 hover:underline"
               >
                 RamHacks
               </a>
