@@ -47,7 +47,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#contact"
                 className="block py-2 px-3 text-white rounded-sm md:bg-transparent md:p-0 hover:text-[#A29BFE] transition-all duration-300 ease-in-out"
               >
                 <span className="text-[#A29BFE]">04.</span> Contact
