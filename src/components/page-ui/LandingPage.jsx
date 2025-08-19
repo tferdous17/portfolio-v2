@@ -6,7 +6,7 @@ export default function LandingPage() {
                 <h1 className="name-header text-7xl md:text-8xl text-gray-300 font-bold"><span className="drop-shadow-[0px_0px_28px_rgba(235,235,235,0.4)]">Tasnim F</span>erdous.</h1>
                 <h1 className="text-5xl text-gray-400">Developer, enthusiast, and lifelong learner.</h1>
                 <p className="sm:w-[80%] text-gray-500 p-3 sm:p-0 text-[19px] mt-3">
-                    I'm a software developer and final-year computer science student at Farmingdale State College, NY, 
+                    I'm a software developer and computer science student at Farmingdale State College, NY, 
                     with a special passion for building scalable and highly performant distributed systems. Additionally, I enjoy
                     creating full-stack applications that make peoples' daily lives just a little easier.
                 </p>

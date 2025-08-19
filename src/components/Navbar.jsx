@@ -4,7 +4,8 @@ export default function Navbar() {
       <div className="flex flex-wrap justify-end mx-auto p-4 gap-10">
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse sm:mr-8">
           <a
-            href="https://drive.google.com/file/d/1CWfZ6hHoaVR9qmPgJlN4L96-GknWbZTS/view?usp=sharing"
+          // https://drive.google.com/file/d/1CWfZ6hHoaVR9qmPgJlN4L96-GknWbZTS/view?usp=sharing
+            href=""
             target="_blank"
           >
             <button className="cursor-pointer group relative inline-flex h-9 sm:h-10 items-center justify-center overflow-hidden rounded-md bg-[#A29BFE] px-4 sm:px-5 font-medium font-mono text-black">

@@ -105,9 +105,10 @@ const experience = [
     title: "Software Engineer Intern, ML Team",
     dateRange: "May 2024 - November 2024",
     bulletpoints: [
-      "Developed a full stack analytics dashboard with Vue and TypeScript to visualize high-risk medical device usage patterns and log critical surgical events in near real-time, used during real orthopedic surgeries.",
-      "Ensured HIPAA-compliant protection for thousands of surgical records by developing a secure Node.js, Express, and AWS backend with integrated JWT authentication and role-based access control.",
-      "Achieved 90%+ code coverage by writing fullstack unit tests leveraging Vitest and Jest, and automated build, test, and deployment processes via a CI/CD pipeline.",
+      "Developed prototype of a full stack dashboard with Vue and TypeScript to analyze high-risk medical device usage patterns for orthopedic surgeons and reduce surgical complications across 200+ U.S. hospitals.",
+      "Built a RESTful API with a Node.js, Express, and AWS backend, integrating with the frontend to deliver surgical analytics and medical device data in near real-time.",
+      "Achieved 90%+ test coverage by writing comprehensive full stack unit tests leveraging Vitest and Jest.",
+      "Created a BitBucket CI/CD build pipeline using YAML and Docker to automate build, test, and deployment processes."
     ],
     url: "https://www.arthrex.com/",
   },

@@ -41,7 +41,7 @@ const projects = [
     technologies: ["Golang", "gRPC", "Protobuf"],
     githubLink: "https://github.com/tferdous17/genesis",
     demoLink: "",
-    stars: 89,
+    stars: 91,
   },
   {
     title: "Flux",
@@ -50,7 +50,7 @@ const projects = [
     technologies: ["Java", "gRPC", "Protobuf"],
     githubLink: "https://github.com/tferdous17/flux",
     demoLink: "",
-    stars: 4,
+    stars: 5,
   },
   {
     title: "Atlas",
