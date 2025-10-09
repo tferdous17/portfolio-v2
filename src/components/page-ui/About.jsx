@@ -25,7 +25,7 @@ export default function About() {
             </p>
             <p className="text-gray-400 text-xl leading-relaxed mb-4">
               On campus, I founded the Artificial Intelligence Club @ FSC where
-              me and my fellow officers have built an active community of 70+
+              me and my fellow officers have built an active community of 100+
               members for those with a shared interest in A.I. I've also served
               as an organizer, mentor and judge for{" "}
               <a
