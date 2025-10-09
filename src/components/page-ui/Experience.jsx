@@ -105,7 +105,7 @@ const experience = [
     title: "Software Engineer Intern, ML Team",
     dateRange: "May 2024 - November 2024",
     bulletpoints: [
-      "Developed prototype of a full stack dashboard with Vue and TypeScript to analyze high-risk medical device usage patterns for orthopedic surgeons and reduce surgical complications across 200+ U.S. hospitals.",
+      "Developed and shipped a full stack dashboard (Vue, TypeScript) enabling orthopedic surgeons across 350+ U.S. hospitals to analyze high-risk medical device usage patterns post-surgery to reduce surgical complications.",
       "Built a RESTful API with a Node.js, Express, and AWS backend, integrating with the frontend to deliver surgical analytics and medical device data in near real-time.",
       "Achieved 90%+ test coverage by writing comprehensive full stack unit tests leveraging Vitest and Jest.",
       "Created a BitBucket CI/CD build pipeline using YAML and Docker to automate build, test, and deployment processes."
@@ -127,7 +127,7 @@ const experience = [
     title: "Founder/President",
     dateRange: "December 2023 - Present",
     bulletpoints: [
-      "Grew an on-campus tech community to 70+ members by leading a 5-person executive board and hosting biweekly technical workshops, presentations, and industry guest speakers on cutting-edge topics.",
+      "Grew an on-campus tech community to 100+ members by leading a 5-person executive board and hosting biweekly technical workshops, presentations, and industry guest speakers on cutting-edge topics.",
     ],
     url: "",
   },
